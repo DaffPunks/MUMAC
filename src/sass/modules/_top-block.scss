@@ -25,6 +25,7 @@
     color: rgb(255, 255, 255);
     font-weight: bold;
     line-height: 1.5;
+    text-transform: uppercase;
 }
 
 .page-top__description {
@@ -44,4 +45,9 @@
     line-height: 2.277;
     text-align: center;
     display: inline-block;
+}
+
+.page-top__link:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }

@@ -23,53 +23,108 @@ get_header();
 <div class="mumac-page">
 
     <div class="page-top">
-        <div class="page-top__text-block">
-            <h1 class="page-top__header">Mumac</h1>
-            <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
-            elit sed do. eiusmod tempor incididunt ut labore et</p>
-            <a href="#" class="page-top__link">Scopri</a>
+        <div class="page-top__text-block row">
+            <div class="col-md-4 col-sm-8 col-xs-10 col-md-offset-4 col-sm-offset-2 col-xs-offset-1">
+                <h1 class="page-top__header">Mumac</h1>
+                <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
+                elit sed do. eiusmod tempor incididunt ut labore et</p>
+                <a href="#" class="page-top__link">Scopri</a>
+            </div>
         </div>
         <img src="<?= get_template_directory_uri(); ?>/images/mumac-top-img.jpg" alt="" class="page-top__img">
     </div>
 
-    <div class="mumac-main">
+    <div class="mumac-main row">
         <div class="col-md-3">
-            <h3 class="mumac-main__header">
-                Lorem 
-                ipsum amor
-                ipsum amor amor
-            </h3>
-            <p class="mumac-main__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
-            </p>
-            <a href="#" class="mumac-main__link">
-                Leggi di più
-            </a>
-            <div class="mumac-main__arrows">
-                <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
-                <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
+            <div class="mumac-main__text-block">
+                <h3 class="mumac-main__header">
+                    Lorem 
+                    ipsum amor
+                    ipsum amor amor
+                    <!-- share -->
+                    <a href="#share" class="mumac-main__header__share"></a>
+                </h3>
+                <p class="mumac-main__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                </p>
+                <a href="#" class="mumac-main__link">
+                    Leggi di più
+                </a>
+                <div class="mumac-main__arrows">
+                    <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
+                    <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
+                </div>
             </div>
         </div>
-        <div class="col-md-8 col-md-offset-1">
-            <img src="<?= get_template_directory_uri(); ?>/images/mumac-logo-big.png" alt="" class="mumac-main__img">
+        <div class="col-md-8 col-md-offset-1 mumac-main__img-block">
+            <img src="<?= get_template_directory_uri(); ?>/images/mumac-house.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
 
-    <div class="mumac-eventi">
-        <h2 class="mumac-eventi__header">
+    <div class="eventi">
+        <h2 class="eventi__header">
             Eventi
         </h2>
-        <div class="mumac-eventi__events-block">
-            <div class="mumac-eventi__event">
-                <img src="<?= get_template_directory_uri(); ?>/images/mumac-logo-big.png" alt="" class="mumac-eventi__event__img">
-                <h3 class="mumac-eventi__event__header">
+        <div class="eventi__events-block">
+
+            <div class="eventi__event col-md-5">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                </a>
+                <h3 class="eventi__event__header">
                     Evento MUMAC
+                    <!-- share -->
+                    <a href="#share" class="eventi__event__header__share"></a>
                 </h3>
-                <p class="mumac-eventi__event__description">
+                <p class="eventi__event__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
                 </p>
             </div>
+
+            <div class="eventi__event col-md-5">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                </a>
+                <h3 class="eventi__event__header">
+                    Evento MUMAC
+                    <!-- share -->
+                    <a href="#share" class="eventi__event__header__share"></a>
+                </h3>
+                <p class="eventi__event__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+                </p>
+            </div>
+
+            <div class="eventi__event col-md-5">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                </a>
+                <h3 class="eventi__event__header">
+                    Evento MUMAC
+                    <!-- share -->
+                    <a href="#share" class="eventi__event__header__share"></a>
+                </h3>
+                <p class="eventi__event__description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+                </p>
+            </div>
+
         </div>
     </div>
 
