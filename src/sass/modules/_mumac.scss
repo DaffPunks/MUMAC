@@ -40,29 +40,4 @@
     text-decoration: underline;
 }
 
-.mumac-eventi {
-    margin-top: 150px;
-}
-
-.mumac-eventi__header {
-    font-size: 52px;
-    font-family: "Playfair Display", serif;
-    color: rgb(71, 71, 71);
-    font-weight: bold;
-    line-height: 1.5;
-    text-align: center;
-    position: relative;
-}
-
-.mumac-eventi__header::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 90px;
-    height: 5px;
-    bottom: -25px;
-    left: calc(50% - 45px);
-    background: #474747;
-}
-
 

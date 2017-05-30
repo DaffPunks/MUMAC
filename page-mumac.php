@@ -58,17 +58,17 @@ get_header();
         </div>
     </div>
 
-    <div class="mumac-eventi">
-        <h2 class="mumac-eventi__header">
+    <div class="eventi">
+        <h2 class="eventi__header">
             Eventi
         </h2>
-        <div class="mumac-eventi__events-block">
-            <div class="mumac-eventi__event">
-                <img src="<?= get_template_directory_uri(); ?>/images/mumac-logo-big.png" alt="" class="mumac-eventi__event__img">
-                <h3 class="mumac-eventi__event__header">
+        <div class="eventi__events-block row">
+            <div class="eventi__event col-md-5">
+                <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                <h3 class="eventi__event__header">
                     Evento MUMAC
                 </h3>
-                <p class="mumac-eventi__event__description">
+                <p class="eventi__event__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
                 </p>
             </div>
