@@ -57,7 +57,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-8 col-md-offset-1 mumac-main__img-block">
             <img src="<?= get_template_directory_uri(); ?>/images/mumac-house.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
