@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Mumac-Progetto
+ * Template Name: Mumac-Partnership
  */
 
 function gwc_enqueue_scripts()
@@ -10,7 +10,7 @@ function gwc_enqueue_scripts()
 }
 function gwc_enqueue_styles()
 {
-    wp_enqueue_style('style-mumac-progetto', get_template_directory_uri() . '/inc/css/mumac-progetto.css');
+    wp_enqueue_style('style-mumac-partnership', get_template_directory_uri() . '/inc/css/mumac-partnership.css');
 }
 add_action('wp_enqueue_scripts', 'gwc_enqueue_scripts');
 add_action('wp_enqueue_scripts', 'gwc_enqueue_styles');
@@ -25,25 +25,24 @@ get_header();
     <div class="page-top">
         <div class="page-top__text-block row">
             <div class="col-md-4 col-sm-8 col-xs-10 col-md-offset-4 col-sm-offset-2 col-xs-offset-1">
-                <h1 class="page-top__header">Il Progetto</h1>
+                <h1 class="page-top__header">Collaboration</h1>
                 <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
                 elit sed do. eiusmod tempor incididunt ut labore et</p>
                 <a href="#" class="page-top__link">Scopri</a>
             </div>
         </div>
-        <img src="<?= get_template_directory_uri(); ?>/images/mumac-progetto-top-img.jpg" alt="" class="page-top__img">
+        <img src="<?= get_template_directory_uri(); ?>/images/mumac-partnersip-top-img.jpg" alt="" class="page-top__img">
     </div>
 
     <div class="mumac-main row">
-        <div class="col-md-8 mumac-main__img-block">
-            <img src="<?= get_template_directory_uri(); ?>/images/mumac-entrance.jpg" alt="" class="mumac-main__img">
+        <div class="col-md-4 mumac-main__img-block">
+            <img src="<?= get_template_directory_uri(); ?>/images/museo-bycicles.jpg" alt="" class="mumac-main__img">
         </div>
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-7 col-md-offset-1">
             <div class="mumac-main__text-block__left">
                 <h3 class="mumac-main__header__left">
-                    Lorem 
-                    ipsum amor
-                    ipsum amor amor
+                    MUSA
+                    Museo Salterio Officina del Gusto e del Paesaggio
                     <!-- share -->
                     <a href="#share" class="mumac-main__header__share__left"></a>
                 </h3>
@@ -56,12 +55,11 @@ get_header();
     </div>
 
     <div class="mumac-main row">
-        <div class="col-md-3">
+        <div class="col-md-7">
             <div class="mumac-main__text-block">
                 <h3 class="mumac-main__header">
-                    Paolo Balzanelli
-                    & Valerio Cometti
-                    lorem ispum
+                    Museu do cafè 
+                    di santos
                     <!-- share -->
                     <a href="#share" class="mumac-main__header__share"></a>
                 </h3>
@@ -69,26 +67,22 @@ get_header();
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
                 </p>
-                <a href="#" class="mumac-main__link">
-                    Leggi di più
-                </a>
             </div>
         </div>
-        <div class="col-md-8 col-md-offset-1">
-            <img src="<?= get_template_directory_uri(); ?>/images/paolo-valerio-img.jpg" alt="" class="mumac-main__img">
+        <div class="col-md-4 col-md-offset-1 col-md-offset-1 mumac-main__img-block__right">
+            <img src="<?= get_template_directory_uri(); ?>/images/museo-house.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
 
     <div class="mumac-main row">
-        <div class="col-md-8 mumac-main__img-block">
-            <img src="<?= get_template_directory_uri(); ?>/images/mumac-entrance.jpg" alt="" class="mumac-main__img">
+        <div class="col-md-4 mumac-main__img-block">
+            <img src="<?= get_template_directory_uri(); ?>/images/museo-ghisallo.jpg" alt="" class="mumac-main__img">
         </div>
-        <div class="col-md-3 col-md-offset-1">
+        <div class="col-md-7 col-md-offset-1">
             <div class="mumac-main__text-block__left">
                 <h3 class="mumac-main__header__left">
-                    Lorem 
-                    ipsum amor
-                    ipsum amor amor
+                    Museo del ciclismo 
+                    del Ghisallo
                     <!-- share -->
                     <a href="#share" class="mumac-main__header__share__left"></a>
                 </h3>
