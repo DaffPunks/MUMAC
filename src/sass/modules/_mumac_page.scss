@@ -1,5 +1,5 @@
 .mumac-page {
-    margin-top: -21px;
+    margin-top: -123px;
 }
 
 .mumac-main {
@@ -19,6 +19,7 @@
     font-weight: bold;
     line-height: 1.5;
     text-align: right;
+    position: relative;
 }
 
 .mumac-main__text {
@@ -40,4 +41,19 @@
     text-decoration: underline;
 }
 
+.mumac-main__header__share {
+    position: absolute;
+    display: block;
+    top: 13px;
+    right: -50px;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/share-icon.png);
+    background-repeat: no-repeat;
+    background-position: -37px 2px;
+    transition: none;
+}
 
+.mumac-main__header__share:hover {
+    background-position: 2px 1px;
+}
