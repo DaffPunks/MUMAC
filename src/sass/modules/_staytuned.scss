@@ -1,0 +1,103 @@
+.stay-tuned {
+
+  &__block {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 180px;
+
+    form {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      width: 420px;
+    }
+  }
+
+  &__header {
+    text-align: center;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    color: #474747;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+
+      width: 100px;
+      height: 3px;
+      background-color: #474747;
+    }
+  }
+
+
+
+  &__email {
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px 0;
+    border-bottom: 1px #979898 solid;
+    outline: none;
+  }
+
+  &__checkbox {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  &__checkbox + label {
+    cursor: pointer;
+    position: relative;
+  }
+
+  &__checkbox:not(checked) {
+    opacity: 0;
+  }
+
+  &__checkbox:not(checked) + label {
+    a {
+      font-size: 14px;
+      font-weight: 300;
+      text-decoration: underline;
+      color: #7c7e7e;
+    }
+  }
+
+  &__checkbox:not(checked) + label:before {
+    content: ' ';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: -13px;
+    top: 50%;
+    transform: translate(0,-50%);
+    background: #bcbdbd;
+  }
+
+  &__checkbox:checked + label:before {
+    background: #9d0000;
+  }
+
+  &__button {
+    background: none;
+    border: none;
+    display: inline-block;
+    color: #474747;
+    width: 60px;
+    margin: 0 auto;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+}
