@@ -6,7 +6,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header page-header">
-		
+
 		<h1 class="entry-title"><?php if ( is_sticky() ) echo'<i class="fa fa-quote-left sticky-icon"></i>'; ?>&nbsp;<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
@@ -40,52 +40,52 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		
+
 		<?php if ( has_post_thumbnail()) : ?>
 		<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
 		 	<?php the_post_thumbnail( 'medium', array( 'class' => 'thumbnail pull-left' )); ?>
 		</a>
 		<div class="col-sm-6">
 			<?php the_excerpt(); ?>
-		</div> 
+		</div>
 		<?php else : ?>
-			<?php the_excerpt(); ?>			
+			<?php the_excerpt(); ?>
 		<?php endif; ?>
 		<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>"><?php _e( 'Continue reading', 'rootstrap' ); ?> <i class="fa fa-chevron-right"></i></a></p>
-		
-		<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"></a>	
+
+		<a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>"></a>
 
 
 		<?php
-			wp_link_pages( array( 
+			wp_link_pages( array(
 				'before'            => '<div class="page-links">'.__( 'Pages:', 'rootstrap' ),
 				'after'             => '</div>',
 				'link_before'       => '<span>',
 				'link_after'        => '</span>',
 				'pagelink'          => '%',
-				'echo'              => 1 
+				'echo'              => 1
        		) );
     	?>
-		
+
 		<footer class="entry-meta">
 		<i class="fa fa-tags"></i>
 		<?php
-			
+
 			/* translators: used between list items, there is a space after the comma */
 			$tag_list = get_the_tag_list( '', __( ', ', 'rootstrap' ) );
 
-			
+
 			printf(
 				$tag_list,
 				get_permalink()
 			);
 		?>
 
-		
-		
-		
+
+
+
 	</footer><!-- .entry-meta -->
-		
+
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 

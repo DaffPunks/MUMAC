@@ -159,7 +159,7 @@ add_filter( 'get_search_form', 'rootstrap_wpsearch' );
  */
 function rootstrap_scripts() {
 
-  wp_enqueue_style( 'rootstrap-bootstrap', get_template_directory_uri() . '/inc/css/bootstrap.css' );
+  wp_enqueue_style( 'rootstrap-bootstrap', get_template_directory_uri() . '/inc/css/bootstrap.min.css' );
 
   wp_enqueue_style( 'rootstrap-icons', get_template_directory_uri().'/inc/css/font-awesome.min.css' );
 
