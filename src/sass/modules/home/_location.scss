@@ -1,0 +1,128 @@
+.location {
+  margin-bottom: 40px;
+
+  .row {
+    height: 695px;
+
+    > div {
+      height: 100%;
+    }
+  }
+
+  &-img {
+    height: 100%;
+    background: url('../../images/home-location.jpg') no-repeat center bottom;
+    background-size: cover;
+  }
+
+  &-info {
+    background-color: #f5f2f2;
+    position: relative;
+  }
+
+  .info {
+
+    &-title {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 65px;
+
+      &-text {
+        letter-spacing: 2px;
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-left: 60px;
+      }
+    }
+
+    &-pages {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translate(0, -50%);
+
+      height: 180px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      font-style: italic;
+      color: #acacac;
+
+      .active {
+        color: #474747;
+      }
+    }
+
+
+
+
+
+    &-desc {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .desc-title {
+        font-family: 'Playfair Display', serif;
+        width: 250px;
+        text-align: right;
+        color: #474747;
+        position: relative;
+
+      }
+
+      .desc-title-2 {
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .desc-desc {
+        margin-top: -10px;
+        width: 465px;
+        padding-left: 255px;
+
+        &-block {
+          width: 100px;
+          height: 3px;
+          background-color: #474747;
+        }
+
+        &-text {
+          line-height: 1.7em;
+          padding-top: 25px;
+          font-size: 18px;
+          color: #474747;
+          font-weight: 300;
+        }
+
+        &-leggi {
+          margin-top: 40px;
+          text-align: right;
+
+          a {
+            color: #474747;
+            font-size: 16px;
+            font-weight: 300;
+            font-style: italic;
+
+            img {
+              margin-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+
+
+
+
+
+}

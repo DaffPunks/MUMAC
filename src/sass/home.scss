@@ -1,1 +1,28 @@
-@import 'modules/home';
+@import 'layouts/container';
+@import 'modules/home/home';
+@import 'modules/eventi';
+@import 'modules/home/coffee';
+@import 'modules/home/location';
+
+.homepage-title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: #474747;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 100px;
+    height: 3px;
+    background-color: #474747;
+  }
+}
