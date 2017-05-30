@@ -18,14 +18,14 @@ get_header('home'); ?>
         <span class="icon-bar"></span>
     </button>
     <?php masterslider(1); ?>
-  </div> 
+  </div>
   <br />
   <div class="row">
-    
+
 	<?php do_action( 'rootstrap_post_before' ); ?>
 	<div id="primary" class="content-area col-sm-12 col-md-12">
 		<div id="main" class="site-main" role="main">
-          
+
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php do_action( 'rootstrap_post_start' ); ?>
 				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
