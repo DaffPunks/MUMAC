@@ -1,0 +1,14 @@
+.flex-sb {
+  display: flex;
+
+  &.flex-ai-end {
+    align-items: flex-end;
+  }
+}
+
+.flex-lg-1 {
+  flex: 1;
+
+  padding-left: 15px;
+  padding-right: 15px;
+}

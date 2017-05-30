@@ -21,7 +21,7 @@ get_header('home');
 <section class="home">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9">
+            <div class="col-md-9">
                 <div class="home-bg">
                     <div class="hm-menu home-menu"></div>
                     <div class="home-text">
@@ -44,7 +44,7 @@ get_header('home');
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 right">
+            <div class="col-md-3 right">
                 <div class="right-menu">
                     <a href="/">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/mumac-logo-big.png">
@@ -87,6 +87,67 @@ get_header('home');
                         </a>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="coffee">
+    <div class="container">
+        <div class="homepage-title">
+            We love coffee
+        </div>
+        <div class="flex-sb flex-ai-end">
+
+            <div class="coffee-col-1 flex-lg-1">
+                <div class="coffee-img">
+                    <div class="coffee-img-desc">
+                        coffee tender
+                    </div>
+                </div>
+                <div class="coffee-title">
+                    <div>Articolo Blog</div>
+                    <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/share-black.png"></a>
+                </div>
+                <div class="coffee-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                </div>
+            </div>
+
+            <div class="coffee-col-2 flex-lg-1">
+                <div class="coffee-head">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/we3coffee.png">
+                    <div class="coffee-head-text">Caffè a regola d’arte  |  gusto del caffè  |  miscela caffè  |  Coffee tender</div>
+                    <div class="coffee-head-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam.</div>
+                </div>
+                <div class="coffee-img">
+                    <div class="coffee-img-desc">
+                        CAFFè A REGOLA D’ARTE
+                    </div>
+                </div>
+                <div class="coffee-title">
+                    <div>Articolo Blog</div>
+                    <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/share-black.png"></a>
+                </div>
+                <div class="coffee-desc">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="location">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+
+            </div>
+            <div class="col-lg-6">
+
             </div>
         </div>
     </div>
