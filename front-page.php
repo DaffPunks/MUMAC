@@ -1,58 +1,102 @@
 <?php
-    
-    if ( get_option( 'show_on_front' ) == 'posts' ) {
-        get_template_part( 'index' );
-    } elseif ( 'page' == get_option( 'show_on_front' ) ) {
+show_admin_bar(false);
 
-get_header('home'); ?>
+function gwc_enqueue_scripts()
+{
+    //wp_enqueue_script('slick.min', get_template_directory_uri() . '/public/js/slick.min.js', false, false, false);
 
-<?php //rootstrap_featured_slider(); ?>
-<?php rootstrap_call_for_action(); ?>
-
-<div id="content" class="site-content container" style="margin-top:0">
-  <div class="row no-gutter">
-    <button type="button" class="navbar-toggle white">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-    </button>
-    <?php masterslider(1); ?>
-  </div>
-  <br />
-  <div class="row">
-
-	<?php do_action( 'rootstrap_post_before' ); ?>
-	<div id="primary" class="content-area col-sm-12 col-md-12">
-		<div id="main" class="site-main" role="main">
-
-			<?php while ( have_posts() ) : the_post(); ?>
-				<?php do_action( 'rootstrap_post_start' ); ?>
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<div class="entry-content">
-						<?php the_content(); ?>
-						<?php
-							wp_link_pages( array(
-								'before' => '<div class="page-links">' . __( 'Pages:', 'rootstrap' ),
-								'after'  => '</div>',
-							) );
-						?>
-					</div><!-- .entry-content -->
-					<?php edit_post_link( __( 'Edit', 'rootstrap' ), '<footer class="entry-meta"><i class="fa fa-pencil-square-o"></i><span class="edit-link">', '</span></footer>' ); ?>
-				</article><!-- #post-## -->
-
-				<?php do_action( 'rootstrap_post_end' ); ?>
-			<?php endwhile; // end of the loop. ?>
-
-		</div><!-- #main -->
-	</div><!-- #primary -->
-  </div>
-</div>
-
-		<?php do_action( 'rootstrap_post_after' ); ?>
-		<?php get_sidebar( 'home' ); ?>
-
-<?php 
-	get_footer(); 
 }
+
+function gwc_enqueue_styles()
+{
+    wp_enqueue_style('home', get_template_directory_uri() . '/inc/css/home.css');
+}
+
+add_action('wp_enqueue_scripts', 'gwc_enqueue_scripts');
+add_action('wp_enqueue_scripts', 'gwc_enqueue_styles');
+
+get_header('home');
 ?>
+
+<section class="home">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="home-bg">
+                    <div class="hm-menu home-menu"></div>
+                    <div class="home-text">
+                        <div class="home-title">
+                            <div class="home-title-share"></div>
+                            <div class="home-title-1">MUMAC</div>
+                            <div class="home-title-2">Lorem ipsum amor lorem ipsum</div>
+                        </div>
+                        <div class="home-desc">
+                            <div class="home-desc-block"></div>
+                            <div class="home-desc-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                            </div>
+                            <div class="home-desc-leggi">
+                                <a href="/">
+                                    leggi<img src="<?php echo get_template_directory_uri(); ?>/images/leggi.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 right">
+                <div class="right-menu">
+                    <a href="/">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/mumac-logo-big.png">
+                    </a>
+                    <div class="lang">
+                        <div class="hide-on-smartphone"><?php do_action('wpml_add_language_selector'); ?></div>
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                    </div>
+                    <div class="calendar">
+                        <a href="/">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/calendar.png">
+                            <div>Prenota la tua visita</div>
+                        </a>
+                    </div>
+                    <div class="slides">
+                        <a href="/">
+                            <div class="img"></div>
+                            <div class="slide-text">
+                                <div class="slide-text-1">MUMAC</div>
+                                <div class="slide-text-2">Lorem ipsum amor lorem ipsum</div>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div class="img"></div>
+                            <div class="slide-text">
+                                <div class="slide-text-1">MUMAC</div>
+                                <div class="slide-text-2">Lorem ipsum amor lorem ipsum</div>
+                            </div>
+                        </a>
+                        <a href="/">
+                            <div class="img"></div>
+                            <div class="slide-text">
+                                <div class="slide-text-1">MUMAC</div>
+                                <div class="slide-text-2">Lorem ipsum amor lorem ipsum</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<?php
+get_footer();
+?>
+<style>
+    html {
+        margin-top: 0 !important;
+    }
+</style>
