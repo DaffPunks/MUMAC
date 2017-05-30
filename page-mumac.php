@@ -62,16 +62,61 @@ get_header();
         <h2 class="eventi__header">
             Eventi
         </h2>
-        <div class="eventi__events-block row">
+        <div class="eventi__events-block">
+
             <div class="eventi__event col-md-5">
-                <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                </a>
                 <h3 class="eventi__event__header">
                     Evento MUMAC
+                    <!-- share -->
+                    <a href="#share" class="eventi__event__header__share"></a>
                 </h3>
                 <p class="eventi__event__description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
                 </p>
             </div>
+
+            <div class="eventi__event col-md-5">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                    <h3 class="eventi__event__header">
+                        Evento MUMAC
+                    </h3>
+                    <p class="eventi__event__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+                    </p>
+                </a>
+            </div>
+
+            <div class="eventi__event col-md-5">
+                <a href="#">
+                    <div class="eventi__event__img-block">
+                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                        <div class="eventi__event__img__bottom-block">
+                            <span>EDU</span> Prenota Ora
+                        </div>
+                    </div>
+                    <h3 class="eventi__event__header">
+                        Evento MUMAC
+                    </h3>
+                    <p class="eventi__event__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+                    </p>
+                </a>
+            </div>
+
         </div>
     </div>
 

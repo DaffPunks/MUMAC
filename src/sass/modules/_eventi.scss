@@ -2,6 +2,12 @@
     margin-top: 150px;
 }
 
+.eventi__events-block {
+    margin-top: 100px;
+    width: 2000px;
+    overflow-x: hidden;
+}
+
 .eventi__header {
     font-size: 52px;
     font-family: "Playfair Display", serif;
@@ -25,6 +31,7 @@
 
 .eventi__event {
     width: 560px;
+    transition: all ease 0.3s;
 }
 
 .eventi__event__header {
@@ -35,19 +42,123 @@
     line-height: 1.5;
     text-align: left;
     margin-bottom: -10px;
+    transition: all 0.2s linear;
+    position: relative;
+}
+
+.eventi__event:hover .eventi__event__header {
+    color: #990000;
+}
+
+.eventi__event__header__share {
+    position: absolute;
+    display: block;
+    top: 13px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../images/share-icon.png);
+    background-repeat: no-repeat;
+    background-position: -37px 2px;
+    transition: none;
+}
+
+.eventi__event:hover .eventi__event__header__share {
+    background-position: 2px 1px;
 }
 
 .eventi__event__description {
     font-size: 18px;
     font-family: "Lato", sans-serif;
+    font-weight: 300;
     color: rgb(71, 71, 71);
     line-height: 1.778;
     text-align: left;
 }
 
-.eventi__event__img {
-    width: 560px;
+.eventi__event__img-block {
+    width: 100%;
     height: 330px;
+    position: relative;
+    overflow: hidden;
+}
+
+.eventi__event__img-block::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 230px;
+    background-image: url(../../images/stripes-white.png);
+    background-size: cover;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+.eventi__event:hover .eventi__event__img-block::after {
+    opacity: 1;
+}
+
+.eventi__event__img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
 }
+
+.eventi__event__img__bottom-block {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    padding: 10px 45px 10px 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: #a6a8a8;
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: left;
+    transition: all 0.2s linear;
+}
+
+.eventi__event__img__bottom-block > span {
+    color: #474747;
+    position: relative;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.eventi__event__img__bottom-block > span::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -35px;
+    width: 30px;
+    height: 20px;
+    background-image: url(../../images/eventi-icon.png);
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+}
+
+.eventi__event:hover .eventi__event__img__bottom-block > span::before {
+    background-position: -47px 1px;
+}
+
+.eventi__event:hover .eventi__event__img__bottom-block {
+    bottom: -60px;
+}
+
+.eventi__event__img__bottom-block > span::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: -14px;
+    width: 2px;
+    height: 11px;
+    background-color: #a6a8a8;
+}
+
