@@ -32,27 +32,29 @@ get_header();
         <img src="<?= get_template_directory_uri(); ?>/images/mumac-top-img.jpg" alt="" class="page-top__img">
     </div>
 
-    <div class="mumac-main">
+    <div class="mumac-main row">
         <div class="col-md-3">
-            <h3 class="mumac-main__header">
-                Lorem 
-                ipsum amor
-                ipsum amor amor
-            </h3>
-            <p class="mumac-main__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
-            </p>
-            <a href="#" class="mumac-main__link">
-                Leggi di più
-            </a>
-            <div class="mumac-main__arrows">
-                <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
-                <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
+            <div class="mumac-main__text-block">
+                <h3 class="mumac-main__header">
+                    Lorem 
+                    ipsum amor
+                    ipsum amor amor
+                </h3>
+                <p class="mumac-main__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                </p>
+                <a href="#" class="mumac-main__link">
+                    Leggi di più
+                </a>
+                <div class="mumac-main__arrows">
+                    <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
+                    <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
+                </div>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-1">
-            <img src="<?= get_template_directory_uri(); ?>/images/mumac-logo-big.png" alt="" class="mumac-main__img">
+            <img src="<?= get_template_directory_uri(); ?>/images/mumac-house.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
 
