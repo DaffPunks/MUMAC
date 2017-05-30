@@ -129,7 +129,7 @@ get_header();
     </div>
 
 
-    <div class="stay-tuned__block">
+    <section class="stay-tuned__block">
         <h2 class="stay-tuned__header">
             Stay tuned
         </h2>
@@ -143,7 +143,7 @@ get_header();
                 Invia
             </button>
         </form>
-    </div>
+    </section>
 
 </div>
 

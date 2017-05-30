@@ -117,19 +117,21 @@ get_header();
     </div>
 
 
-    <div class="stay-tuned__block">
+    <section class="stay-tuned__block">
         <h2 class="stay-tuned__header">
             Stay tuned
         </h2>
         <form action="">
-            <input type="email" class="stay-tuned__email">
-            <input type="checkbox" class="stay-tuned__checkbox">
-            <a href="" class="stay-tuned__policy"></a>
+            <input type="email" class="stay-tuned__email" placeholder="latuaemail@mail.com">
+            <div>
+                <input type="checkbox" class="stay-tuned__checkbox" id="checkbox" />
+                <label for="checkbox"><a href="/">policy</a></label>
+            </div>
             <button type="submit" class="stay-tuned__button">
                 Invia
             </button>
         </form>
-    </div>
+    </section>
 
 </div>
 
