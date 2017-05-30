@@ -25,7 +25,7 @@ get_header();
     <div class="page-top">
         <div class="page-top__text-block row">
             <div class="col-md-4 col-sm-8 col-xs-10 col-md-offset-4 col-sm-offset-2 col-xs-offset-1">
-                <h1 class="page-top__header">Mumac</h1>
+                <h1 class="page-top__header">MUMAC</h1>
                 <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
                 elit sed do. eiusmod tempor incididunt ut labore et</p>
                 <a href="#" class="page-top__link">Scopri</a>
