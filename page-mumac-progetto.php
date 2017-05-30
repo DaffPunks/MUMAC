@@ -38,9 +38,9 @@ get_header();
         <div class="col-md-3">
             <div class="mumac-main__text-block">
                 <h3 class="mumac-main__header">
-                    Lorem 
-                    ipsum amor
-                    ipsum amor amor
+                    Paolo Balzanelli
+                    & Valerio Cometti
+                    lorem ispum
                     <!-- share -->
                     <a href="#share" class="mumac-main__header__share"></a>
                 </h3>
@@ -53,8 +53,52 @@ get_header();
                 </a>
             </div>
         </div>
-        <div class="col-md-8 col-md-offset-1 mumac-main__img-block">
-            <img src="<?= get_template_directory_uri(); ?>/images/mumac-storia-woman.jpg" alt="" class="mumac-main__img">
+        <div class="col-md-8 col-md-offset-1">
+            <img src="<?= get_template_directory_uri(); ?>/images/paolo-valerio-img.jpg" alt="" class="mumac-main__img">
+        </div>
+    </div>
+
+    <div class="mumac-main row">
+        <div class="col-md-8 mumac-main__img-block">
+            <img src="<?= get_template_directory_uri(); ?>/images/mumac-entrance.jpg" alt="" class="mumac-main__img">
+        </div>
+        <div class="col-md-3 col-md-offset-1">
+            <div class="mumac-main__text-block__left">
+                <h3 class="mumac-main__header__left">
+                    Lorem 
+                    ipsum amor
+                    ipsum amor amor
+                    <!-- share -->
+                    <a href="#share" class="mumac-main__header__share__left"></a>
+                </h3>
+                <p class="mumac-main__text__left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="mumac-main row">
+        <div class="col-md-4">
+            <img src="<?= get_template_directory_uri(); ?>/images/map-1.jpg" alt="" class="mumac-main__img__small">
+        </div>
+        <div class="col-md-4">
+            <div class="mumac-main__text-block__left">
+                <h3 class="mumac-main__header__left__small">
+                    Lorem 
+                    ipsum amor
+                    ipsum amor amor
+                    <!-- share -->
+                    <a href="#share" class="mumac-main__header__share__left"></a>
+                </h3>
+                <p class="mumac-main__text__left">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4 mumac-main__img-block__small">
+            <img src="<?= get_template_directory_uri(); ?>/images/map-2.jpg" alt="" class="mumac-main__img__small">
         </div>
     </div>
 
