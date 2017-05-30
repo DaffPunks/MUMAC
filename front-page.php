@@ -92,7 +92,71 @@ get_header('home');
     </div>
 </section>
 
+<section class="eventi">
+    <h2 class="eventi__header">
+        Eventi
+    </h2>
+    <div class="eventi__events-block">
 
+        <div class="eventi__event col-md-5">
+            <a href="#">
+                <div class="eventi__event__img-block">
+                    <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                    <div class="eventi__event__img__bottom-block">
+                        <span>EDU</span> Prenota Ora
+                    </div>
+                </div>
+            </a>
+            <h3 class="eventi__event__header">
+                Evento MUMAC
+                <!-- share -->
+                <a href="#share" class="eventi__event__header__share"></a>
+            </h3>
+            <p class="eventi__event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+
+        <div class="eventi__event col-md-5">
+            <a href="#">
+                <div class="eventi__event__img-block">
+                    <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                    <div class="eventi__event__img__bottom-block">
+                        <span>EDU</span> Prenota Ora
+                    </div>
+                </div>
+            </a>
+            <h3 class="eventi__event__header">
+                Evento MUMAC
+                <!-- share -->
+                <a href="#share" class="eventi__event__header__share"></a>
+            </h3>
+            <p class="eventi__event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+
+        <div class="eventi__event col-md-5">
+            <a href="#">
+                <div class="eventi__event__img-block">
+                    <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
+                    <div class="eventi__event__img__bottom-block">
+                        <span>EDU</span> Prenota Ora
+                    </div>
+                </div>
+            </a>
+            <h3 class="eventi__event__header">
+                Evento MUMAC
+                <!-- share -->
+                <a href="#share" class="eventi__event__header__share"></a>
+            </h3>
+            <p class="eventi__event__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+            </p>
+        </div>
+
+    </div>
+</section>
 
 <section class="coffee">
     <div class="container">
@@ -142,11 +206,40 @@ get_header('home');
 
 <section class="location">
     <div class="container">
+        <div class="homepage-title">
+            Location
+        </div>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 location-img">
 
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 location-info">
+                <div class="info-pages">
+                    <div class="active">01</div>
+                    <div>02</div>
+                    <div>03</div>
+                    <div>04</div>
+                </div>
+                <div class="info-title">
+                    <div class="info-title-text">lorem ipsum</div>
+                    <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/share-black.png"></a>
+                </div>
+                <div class="info-desc">
+                    <div class="desc-title">
+                        <div class="desc-title-2">Lorem ipsum amor lorem ipsum</div>
+                    </div>
+                    <div class="desc-desc">
+                        <div class="desc-desc-block"></div>
+                        <div class="desc-desc-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing.
+                        </div>
+                        <div class="desc-desc-leggi">
+                            <a href="/">
+                                Leggi di più<img src="<?php echo get_template_directory_uri(); ?>/images/leggi-black.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
