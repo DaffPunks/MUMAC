@@ -1,5 +1,5 @@
 {
-  "name": "Mumac",
+  "name": "mumac",
   "version": "1.0.0",
   "description": "GWC World",
   "author": "",
@@ -20,5 +20,17 @@
     "gulp-util": "^3.0.8",
     "path": "^0.12.7",
     "webpack": "^1.14.0"
-  }
+  },
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaffPunks/MUMAC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaffPunks/MUMAC/issues"
+  },
+  "homepage": "https://github.com/DaffPunks/MUMAC#readme"
 }
