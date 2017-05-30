@@ -21,6 +21,7 @@
 <?php if ( rootstrap_get_option( 'custom_favicon' ) ) { ?>
 <link rel="icon" href="<?php echo rootstrap_get_option( 'custom_favicon' ); ?>" />
 <?php } ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/css/common.css" type="text/css" media="all">
 
 <!--[if IE]><?php if ( rootstrap_get_option( 'custom_favicon' ) ) { ?><link rel="shortcut icon" href="<?php echo rootstrap_get_option( 'custom_favicon' ); ?>" /><?php } ?><![endif]-->	
 
