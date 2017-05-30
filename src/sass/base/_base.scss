@@ -1,0 +1,39 @@
+@import "normalize";
+
+$green: #02df49;
+$green2: #00dfae;
+$green3: #00bd15;
+$blue: #3197bf;
+$blue_text: #1a4283;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  //min-width: 1024px;
+}
+
+p,
+label {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}

@@ -1,0 +1,19 @@
+
+$xsmall: 768px;
+$small: 992px;
+$large: 2000px;
+
+@mixin respond-to($media) {
+  @if $media == xs {
+    @media only screen and (max-width: $xsmall) { @content; }
+  }
+  @else if $media == md {
+    @media only screen and (max-width: $large) { @content; }
+  }
+  @else if $media == sm {
+    @media only screen and (max-width: $small) { @content; }
+  }
+  @else if $media == ld {
+    @media only screen and (min-width: $large) { @content; }
+  }
+}

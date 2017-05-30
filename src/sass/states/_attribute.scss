@@ -1,0 +1,23 @@
+.flex {
+  display: flex;
+  @include respond-to(xs) {
+    display: block;
+  }
+}
+
+.flex-sb-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include respond-to(xs) {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.flex-no {
+  @include respond-to(xs) {
+    display: block !important;
+  }
+}
