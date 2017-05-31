@@ -1,9 +1,10 @@
 @import 'layouts/container';
 @import 'modules/location/head';
 @import 'modules/location/map';
+@import 'modules/location/case';
 @import 'modules/staytuned';
 
-.homepage-title {
+.mappage-title {
   text-align: center;
   font-size: 52px;
   font-weight: bold;

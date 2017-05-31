@@ -74,13 +74,85 @@ get_header();
     </div>
 </section>
 
+<section class="case">
+    <div class="container">
+        <div class="mappage-title">
+            Case History
+        </div>
+        <div class="row">
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 case-wrap">
+                <a href="">
+                    <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
+                        <div class="case-text">
+                            LOREM IPSUM
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
-
-
-
-
-
-
+<section class="stay-tuned__block">
+    <h2 class="stay-tuned__header">
+        Stay tuned
+    </h2>
+    <form action="">
+        <input type="email" class="stay-tuned__email" placeholder="latuaemail@mail.com">
+        <div>
+            <input type="checkbox" class="stay-tuned__checkbox" id="checkbox" />
+            <label for="checkbox"><a href="/">policy</a></label>
+        </div>
+        <button type="submit" class="stay-tuned__button">
+            Invia
+        </button>
+    </form>
+</section>
 
 
 

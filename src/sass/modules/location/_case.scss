@@ -1,0 +1,56 @@
+.case {
+
+  &-wrap {
+    margin-bottom: 30px;
+  }
+
+  &-block {
+    width: 100%;
+    height: 294px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    &:before {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      bottom: 12px;
+      left: 12px;
+      border: 2px solid #fff;
+      content: '';
+      z-index: 3;
+
+      transition: transform 0.3s;
+      transform: scale(1.1);
+    }
+
+    &:hover {
+      &:before {
+        transform: scale(1);
+      }
+
+      .case-text {
+        opacity: 1;
+      }
+    }
+  }
+
+  &-text {
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: white;
+
+    transition: opacity 0.3s;
+    opacity: 0;
+  }
+
+
+}
