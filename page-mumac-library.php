@@ -25,13 +25,17 @@ get_header();
     <div class="page-top">
         <div class="page-top__text-block row">
             <div class="col-md-6 col-sm-8 col-xs-10 col-md-offset-3 col-sm-offset-2 col-xs-offset-1">
-                <h1 class="page-top__header">MUMAC Academy</h1>
+                <h1 class="page-top__header">Library</h1>
                 <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
                 elit sed do. eiusmod tempor incididunt ut labore et</p>
-                <a href="#" class="page-top__link">Scopri</a>
+            </div>
+            <div class="col-md-10 col-sm-10 col-xs-10 col-md-offset-1 col-sm-offset-1 col-xs-offset-1">
+                <div class="library__search__input__wrapper">
+                    <input type="text" class="library__search__input" placeholder="What are you looking for?">
+                </div>
             </div>
         </div>
-        <img src="<?= get_template_directory_uri(); ?>/images/mumac-academy-top-img.jpg" alt="" class="page-top__img">
+        <img src="<?= get_template_directory_uri(); ?>/images/mumac-library-top-img.jpg" alt="" class="page-top__img">
     </div>
 
     <div class="mumac-main row">
@@ -51,96 +55,10 @@ get_header();
                 <a href="#" class="mumac-main__link">
                     Leggi di più
                 </a>
-                <div class="mumac-main__arrows">
-                    <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
-                    <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
-                </div>
             </div>
         </div>
         <div class="col-md-8 col-md-offset-1 mumac-main__img-block__right">
-            <img src="<?= get_template_directory_uri(); ?>/images/coffe-machine.jpg" alt="" class="mumac-main__img">
-        </div>
-    </div>
-
-    <div class="mumac-main row">
-        <div class="col-md-5 mumac-main__img-block">
-            <img src="<?= get_template_directory_uri(); ?>/images/coffe-automatos.jpg" alt="" class="mumac-main__img">
-        </div>
-        <div class="col-md-6 col-md-offset-1">
-            <div class="mumac-main__text-block__left">
-                <h3 class="mumac-main__header__left">
-                    Lorem 
-                    ipsum amor
-                    ipsum amor amor
-                    <!-- share -->
-                    <a href="#share" class="mumac-main__header__share__left"></a>
-                </h3>
-                <p class="mumac-main__text__left">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
-                </p>
-                <a href="#" class="mumac-main__link">
-                    Leggi di più
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="coffee">
-        <div class="container-fluid">
-            <div class="row">
-
-                <div class="col-xs-12 col-md-12">
-                    <h2 class="coffee__header">
-                        we love coffee
-                    </h2>
-                </div>
-
-                <div class="coffee__event col-xs-3">
-                    <a href="#">
-                        <div class="coffee__event__img-block">
-                            <img src="<?= get_template_directory_uri(); ?>/images/coffee-default.jpg" alt="" class="coffee__event__img">
-                        </div>
-                    </a>
-                    <p class="coffee__event__description">
-                        12 maggio 2017  - Lorem Ipsum amor sin hic e hoc pollus.
-                    </p>
-                </div>
-
-                <div class="coffee__event col-xs-3">
-                    <a href="#">
-                        <div class="coffee__event__img-block">
-                            <img src="<?= get_template_directory_uri(); ?>/images/coffee-default.jpg" alt="" class="coffee__event__img">
-                        </div>
-                    </a>
-                    <p class="coffee__event__description">
-                        12 maggio 2017  - Lorem Ipsum amor sin hic e hoc pollus.
-                    </p>
-                </div>
-
-                <div class="coffee__event col-xs-3">
-                    <a href="#">
-                        <div class="coffee__event__img-block">
-                            <img src="<?= get_template_directory_uri(); ?>/images/coffee-default.jpg" alt="" class="coffee__event__img">
-                        </div>
-                    </a>
-                    <p class="coffee__event__description">
-                        12 maggio 2017  - Lorem Ipsum amor sin hic e hoc pollus.
-                    </p>
-                </div>
-
-                <div class="coffee__event col-xs-3">
-                    <a href="#">
-                        <div class="coffee__event__img-block">
-                            <img src="<?= get_template_directory_uri(); ?>/images/coffee-default.jpg" alt="" class="coffee__event__img">
-                        </div>
-                    </a>
-                    <p class="coffee__event__description">
-                        12 maggio 2017  - Lorem Ipsum amor sin hic e hoc pollus.
-                    </p>
-                </div>
-
-            </div>
+            <img src="<?= get_template_directory_uri(); ?>/images/books-draws.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
 
