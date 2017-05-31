@@ -28,60 +28,107 @@ get_header();
 
     <div class="container-fluid">
         <div class="row">
-
             <div class="col-md-7 col-md-offset-1">
+                <div class="row">
 
-                <div class="mumac-main row">
                     <div class="col-xs-12">
                         <div class="mumac-main__text-block">
-                            <h3 class="mumac-main__header">
-                                Lorem 
-                                ipsum amor
-                                ipsum amor amor
-                                <!-- share -->
-                                <a href="#share" class="mumac-main__header__share"></a>
+                            <h3 class="mumac-main__header__white">
+                                La storia
                             </h3>
-                            <p class="mumac-main__text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mumac-main__img-block__right">
-                        <img src="<?= get_template_directory_uri(); ?>/images/coffe-machine.jpg" alt="" class="mumac-main__img">
-                    </div>
-                </div>
-            
-
-                <div class="mumac-main row">
-                    <div class="col-xs-12 mumac-main__img-block">
-                        <img src="<?= get_template_directory_uri(); ?>/images/coffe-automatos.jpg" alt="" class="mumac-main__img">
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="mumac-main__text-block__left">
-                            <h3 class="mumac-main__header__left">
+                            <h2 class="mumac-main__header">
                                 Lorem 
                                 ipsum amor
                                 ipsum amor amor
+                            </h2>
+                            <h4 class="mumac-main__header__small">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip ex ea 
                                 <!-- share -->
                                 <a href="#share" class="mumac-main__header__share__left"></a>
-                            </h3>
+                            </h4>
                             <p class="mumac-main__text__left">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
-                                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
                             </p>
                         </div>
                     </div>
+
+                    <div class="col-xs-12">
+                        <img src="<?= get_template_directory_uri(); ?>/images/video-default.jpg" alt="" class="mumac-main__img">
+                    </div>
+
+
+                    <div class="col-xs-12">
+                        <div class="mumac-main__text-block">
+                            <p class="mumac-main__text__left">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 mumac-main__img-block__right">
+                        <img src="<?= get_template_directory_uri(); ?>/images/notes-coffee.jpg" alt="" class="mumac-main__img">
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="mumac-main__text-block">
+                            <p class="mumac-main__text__left">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="mumac-main__img__small__wrapper">
+                                    <img src="<?= get_template_directory_uri(); ?>/images/books-coffee-table.jpg" alt="" class="mumac-main__img__small">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12">
+                        <div class="mumac-main__text-block">
+                            <p class="mumac-main__text__left">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore. magna aliqua. Ut enim ad minim veniam, exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
-
-
 
             <div class="col-md-3 col-md-offset-1">
                 <div class="row">
 
-                    <div class="col-xs-12">
+                    <div class="col-xs-12 coffee__vertical">
                         <h2 class="coffee__header">
                             we love coffee
                         </h2>
