@@ -56,13 +56,14 @@ mumac theme is based on Underscores http://underscores.me/, (C) 2012-2013 Automa
 */
 /* =Global
 ----------------------------------------------- */
-body {
+html, body {
   color: #333;
   word-wrap: break-word;
   line-height: 1.4;
   font-size: 14px;
   background: #FFF;
   font-family: 'Lato', sans-serif;
+  width: 100% !important;
   overflow-x: hidden;
 }
 
