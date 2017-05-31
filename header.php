@@ -50,7 +50,7 @@
           </div>
         </div>
 		<nav class="navbar navbar-default" role="navigation">
-			<div class="container">
+			<div class="col-xs-12">
               <div class="row">
 		        <div class="navbar-header">
 		            <button type="button" class="navbar-toggle">
