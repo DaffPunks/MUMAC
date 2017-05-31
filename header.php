@@ -22,16 +22,16 @@
 <link rel="icon" href="<?php echo rootstrap_get_option( 'custom_favicon' ); ?>" />
 <?php } ?>
 
-<!--[if IE]><?php if ( rootstrap_get_option( 'custom_favicon' ) ) { ?><link rel="shortcut icon" href="<?php echo rootstrap_get_option( 'custom_favicon' ); ?>" /><?php } ?><![endif]-->	
+<!--[if IE]><?php if ( rootstrap_get_option( 'custom_favicon' ) ) { ?><link rel="shortcut icon" href="<?php echo rootstrap_get_option( 'custom_favicon' ); ?>" /><?php } ?><![endif]-->
 
 <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <?php //do_action( 'before' ); ?>
-    
-        
-  
+
+
+
 <div id="page" class="hfeed site">
 <?php do_action( 'nav-before' ); ?>
         <div class="container">
@@ -58,14 +58,14 @@
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
 		                <span class="icon-bar"></span>
-		            </button>						
+		            </button>
 					<div id="logo">
 				    <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<?php if(rootstrap_get_option('logo_uploader')=='') {
 						echo bloginfo( 'name' ); ?>
 						<span id="site-description"><?php bloginfo( 'description' ); ?></span>
 					 <?php } else { ?>
-						<img src="<?php echo rootstrap_get_option('logo_uploader'); ?>" style="display:block" alt="Mumac">	
+						<img src="<?php echo rootstrap_get_option('logo_uploader'); ?>" style="display:block" alt="Mumac">
 					<?php } ?>
 					</a>
 					</div>
@@ -73,6 +73,6 @@
                 <div class="languages hide-on-smartphone"><?php do_action('wpml_add_language_selector'); ?></div>
               </div>
 		    </div>
-		</nav><!-- .site-navigation -->	
+		</nav><!-- .site-navigation -->
 		<?php do_action( 'nav-after' ); ?>
         

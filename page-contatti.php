@@ -3,6 +3,7 @@
  * Template Name: Contatti
  */
 
+
 function gwc_enqueue_scripts()
 {
     //wp_enqueue_script('slick.min', get_template_directory_uri() . '/public/js/slick.min.js', false, false, false);
@@ -61,10 +62,10 @@ get_header();
 <section class="info">
     <div class="container">
         <div class="row">
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-1 col-lg-offset-1">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/contatti-pin-1.png">
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-8">
                 <div class="info-tabs">
                     <div class="info-tab active">In auto</div>
                     <div class="info-tab">Senz'auto</div>
@@ -101,10 +102,10 @@ get_header();
 <section class="info">
     <div class="container">
         <div class="row">
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-1 col-lg-offset-1">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/contatti-pin-2.png">
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-11">
                 <div class="info-title">
                     Orari di apertura
                 </div>
@@ -153,10 +154,10 @@ get_header();
 <section class="info">
     <div class="container">
         <div class="row">
-            <div class="col-md-1 col-md-offset-1">
+            <div class="col-md-1 col-lg-offset-1">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/contatti-pin-3.png">
             </div>
-            <div class="col-md-7">
+            <div class="col-lg-7 col-md-11">
                 <div class="info-title">
                     Contatti
                 </div>

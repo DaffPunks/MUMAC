@@ -1,7 +1,7 @@
 
 $xsmall: 768px;
-$small: 992px;
-$large: 2000px;
+$small: 1200px;
+$large: 1470px;
 
 @mixin respond-to($media) {
   @if $media == xs {

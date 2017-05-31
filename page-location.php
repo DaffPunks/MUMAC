@@ -81,7 +81,7 @@ get_header();
             Case History
         </div>
         <div class="row">
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">
@@ -90,7 +90,7 @@ get_header();
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">
@@ -99,7 +99,7 @@ get_header();
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">
@@ -108,7 +108,7 @@ get_header();
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">
@@ -117,7 +117,7 @@ get_header();
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">
@@ -126,7 +126,7 @@ get_header();
                     </div>
                 </a>
             </div>
-            <div class="col-lg-4 case-wrap">
+            <div class="col-lg-4 col-md-6 case-wrap">
                 <a href="">
                     <div class="case-block" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/location-case.jpg')">
                         <div class="case-text">

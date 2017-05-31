@@ -111,6 +111,10 @@
     width: 413px;
     height: 428px;
     background: url('../../images/contatti-mobile.png') no-repeat;
+
+    @include respond-to(md) {
+      right: -120px;
+    }
   }
 
 }

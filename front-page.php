@@ -3,7 +3,7 @@ show_admin_bar(false);
 
 function gwc_enqueue_scripts()
 {
-    //wp_enqueue_script('slick.min', get_template_directory_uri() . '/public/js/slick.min.js', false, false, false);
+    wp_enqueue_script('home', get_template_directory_uri() . '/inc/js/home.min.js', false, false, true);
 
 }
 
@@ -210,10 +210,10 @@ get_header('home');
             Location
         </div>
         <div class="row">
-            <div class="col-lg-6 location-img">
+            <div class="col-md-6 location-img">
 
             </div>
-            <div class="col-lg-6 location-info">
+            <div class="col-md-6 location-info">
                 <div class="info-pages">
                     <div class="active">01</div>
                     <div>02</div>

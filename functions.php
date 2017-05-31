@@ -200,7 +200,14 @@ define('rootstrap_framework_URL', get_template_directory() . '/inc/admin/');
 define('rootstrap_framework_DIRECTORY', get_template_directory_uri() . '/inc/admin/');
 require_once (rootstrap_framework_URL . 'rootstrap-options.php');
 
+function deregister_qjuery() {
+    if ( !is_admin() ) {
+        wp_deregister_script('jquery');
+        wp_enqueue_script('jquery', get_template_directory_uri() . '/inc/js/jquery.min.js', false, false, false);
+    }
+}
 
+add_action('wp_enqueue_scripts', 'deregister_qjuery');
 
 /**
  * Custom template tags for this theme.
