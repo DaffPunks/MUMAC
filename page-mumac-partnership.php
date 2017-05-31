@@ -28,7 +28,7 @@ get_header();
                 <h1 class="page-top__header">Collaboration</h1>
                 <p class="page-top__description">Lorem ipsum dolor sit amet, consectetur adipisicing.
                 elit sed do. eiusmod tempor incididunt ut labore et</p>
-                <a href="#" class="page-top__link">Scopri</a>
+                <a href="#" class="hide-on-mobile page-top__link">Scopri</a>
             </div>
         </div>
         <img src="<?= get_template_directory_uri(); ?>/images/mumac-partnersip-top-img.jpg" alt="" class="page-top__img">

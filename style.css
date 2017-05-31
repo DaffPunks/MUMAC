@@ -1236,9 +1236,9 @@ body.toggled #sidebar-wrapper {
 
 /* =Mobile Styling
 ----------------------------------------------- */
-@media (max-width: 1200px) {
-  .hide-on-mobile{display:none}
-  .show-on-mobile{display:block}
+@media (max-width: 900px) {
+  .hide-on-mobile{display:none!important}
+  .show-on-mobile{display:block!important}
   .container{width:100%!important}
 }
 
