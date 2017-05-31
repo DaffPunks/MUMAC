@@ -1,0 +1,27 @@
+@import 'layouts/container';
+@import 'modules/location/head';
+@import 'modules/location/map';
+@import 'modules/staytuned';
+
+.homepage-title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: #474747;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    width: 100px;
+    height: 3px;
+    background-color: #474747;
+  }
+}

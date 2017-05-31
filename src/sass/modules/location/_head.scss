@@ -1,0 +1,25 @@
+.head {
+  height: 368px;
+  width: 100%;
+  //margin-bottom: 300px;
+
+  background: url('../../images/location-bg.jpg') no-repeat top;
+  background-size: cover;
+
+  text-align: center;
+  color: white;
+
+  &-title {
+    padding-top: 120px;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+  }
+
+  &-desc {
+    padding-top: 45px;
+    width: 450px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+}

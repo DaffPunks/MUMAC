@@ -743,6 +743,9 @@ li.recentcomments {
   padding-top: 18px;
   padding-bottom: 18px;
 }
+#menu-main-menu {
+  padding-left: 10px;
+}
 .navbar-toggle{float:left;border:none;margin-left: 37px;margin-top: 22px;display:block!important;background-color: transparent}
 .navbar-toggle.white{position:absolute;border:none;margin-left:5px;margin-top:14px;display:block!important;z-index:9999}
 .navbar-toggle .icon-bar {
@@ -1182,7 +1185,8 @@ body.toggled #sidebar-wrapper {
 
 .sidebar-nav li {
     line-height: 24px;
-    font-size:18px
+    font-size:18px;
+    list-style: none;
 }
 
 .sidebar-nav li a {
