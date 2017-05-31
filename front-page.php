@@ -210,10 +210,10 @@ get_header('home');
             Location
         </div>
         <div class="row">
-            <div class="col-lg-6 location-img">
+            <div class="col-md-6 location-img">
 
             </div>
-            <div class="col-lg-6 location-info">
+            <div class="col-md-6 location-info">
                 <div class="info-pages">
                     <div class="active">01</div>
                     <div>02</div>

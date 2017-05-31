@@ -1236,10 +1236,10 @@ body.toggled #sidebar-wrapper {
 
 /* =Mobile Styling
 ----------------------------------------------- */
-@media (max-width: 1200px) {
+/*@media (max-width: 1200px) {
   .hide-on-mobile{display:none}
   .show-on-mobile{display:block}
-  .container{width:100%!important}
+  !*.container{width:100%!important}*!
 }
 
 @media (max-width: 992px) {
@@ -1276,7 +1276,7 @@ body.toggled #sidebar-wrapper {
       margin: 56px 0 0 8px;
   }
   #social{text-align:center}
-} 
+} */
 
 /*
 @media (min-width: 768px) {
