@@ -1,0 +1,116 @@
+.info {
+  margin-bottom: 80px;
+  position: relative;
+
+  &-title {
+    color: #474747;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 24px;
+  }
+
+  &-tabs {
+    display: flex;
+    margin-top: 27px;
+
+    .info-tab {
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+      color: #bcb8b8;
+      font-weight: bold;
+      margin-right: 20px;
+
+      &.active {
+        color: #990000;
+        border-bottom: #990000 3px solid;
+      }
+    }
+  }
+
+  &-inst {
+    display: flex;
+    margin-top: 10px;
+
+    .inst-num {
+      width: 44px;
+      font-family: 'Playfair Display', serif;
+      font-size: 30px;
+      color: #474747;
+      text-align: center;
+    }
+
+    .inst-text {
+      font-size: 16px;
+      font-weight: 300;
+      width: calc(100% - 44px);
+      line-height: 32px;
+      padding-top: 10px;
+    }
+  }
+
+  &-schedule {
+    margin-top: 30px;
+
+    .info-row {
+      display: flex;
+      font-weight: 300;
+      font-size: 18px;
+      padding: 10px 0;
+      border-bottom: solid 1px #e6e6e6;
+
+      &-1 {
+        flex: 2;
+
+        &.b {
+          font-weight: bold;
+        }
+      }
+
+      &-2 {
+        flex: 5;
+        text-align: right;
+        padding-right: 260px;
+      }
+
+      &-3 {
+        font-weight: 500;
+        flex: 3;
+        color: #990000;
+        a {
+          font-weight: 600;
+          color: #990000;
+          text-decoration: underline;
+          font-style: italic;
+        }
+      }
+    }
+  }
+
+  &-contacts {
+    margin-top: 30px;
+
+    > div {
+      font-size: 18px;
+      font-weight: 300;
+      color: #474747;
+      margin-bottom: 12px;
+
+      > span {
+        font-weight: bold;
+        color: #990000;
+      }
+    }
+
+  }
+
+  &-mobile {
+    position: absolute;
+    right: 0;
+    top: -120px;
+    width: 413px;
+    height: 428px;
+    background: url('../../images/contatti-mobile.png') no-repeat;
+  }
+
+}

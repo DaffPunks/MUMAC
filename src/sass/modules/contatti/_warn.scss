@@ -1,0 +1,47 @@
+.warn {
+  margin-bottom: 50px;
+
+  &-container {
+    width: 912px;
+    margin: 0 auto;
+  }
+
+  &-col {
+    flex: 1;
+  }
+
+  &-head {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #e6e6e6;
+
+    > div {
+      font-size: 18px;
+      font-weight: bold;
+      color: #990000;
+      text-transform: uppercase;
+    }
+  }
+
+  &-body {
+    display: flex;
+    padding-top: 10px;
+
+    img {
+      margin-right: 10px;
+    }
+
+    .warn-col div {
+      display: flex;
+
+      align-items: center;
+
+      padding: 7px 0;
+      font-size: 18px;
+      font-weight: 300;
+      color: #474747;
+    }
+  }
+
+
+}
