@@ -167,8 +167,8 @@
     position: absolute;
     top: 0px;
     left: -35px;
-    width: 30px;
-    height: 20px;
+    width: 36px;
+    height: 30px;
     background-image: url(../../images/eventi-icon.png);
     background-repeat: no-repeat;
     background-position: 2px 2px;
@@ -176,6 +176,38 @@
 
 .eventi__event:hover .eventi__event__img__bottom-block > span::before {
     background-position: -47px 1px;
+}
+
+.eventi__event__img__bottom-block > span.eventi__event__span__edu::before {
+    background-image: url(../../images/eventi-icons.png);
+    background-position: -63px -109px;
+}
+
+.eventi__event__img__bottom-block__relative:hover > span.eventi__event__span__edu::before {
+    background-position: -1px -110px;
+}
+
+.eventi__event__img__bottom-block > span.eventi__event__span__clock::before {
+    background-image: url(../../images/eventi-icons.png);
+    background-position: -66px 0px;
+}
+
+.eventi__event__img__bottom-block > span.eventi__event__span__clock.eventi__event__span__clock__red::before {
+    background-image: url(../../images/eventi-icons.png);
+    background-position: -5px 0px;
+}
+
+.eventi__event__img__bottom-block__relative:hover > span.eventi__event__span__clock::before {
+    background-position: -5px 0px;
+}
+
+.eventi__event__img__bottom-block > span.eventi__event__span__calendar::before {
+    background-image: url(../../images/eventi-icons.png);
+    background-position: -63px -213px;
+}
+
+.eventi__event__img__bottom-block__relative:hover > span.eventi__event__span__calendar::before {
+    background-position: -2px -213px;
 }
 
 .eventi__event:hover .eventi__event__img__bottom-block {
@@ -191,5 +223,45 @@
     width: 2px;
     height: 11px;
     background-color: #a6a8a8;
+}
+
+.eventi__event__img__bottom-block__relative > span.eventi__event__calendar__date {
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: rgb(211, 210, 210);
+    line-height: 2.334;
+    text-align: left;
+    transition: all 0.3s linear;
+}
+
+.eventi__event__img__bottom-block__relative:hover > span.eventi__event__calendar__date {
+    color: #820503;
+}
+
+.eventi__event__img__bottom-block__relative > span.eventi__event__calendar__date::after {
+    display: none;
+}
+
+.eventi__event__img__bottom-block__relative > span.eventi__event__calendar__date::before {
+    top: 2px;
+    left: -45px;
+}
+
+.eventi__event__calendar__description {
+    margin-top: 0px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(151, 152, 152);
+    font-weight: bold;
+    line-height: 2.101;
+    text-align: left;
+    text-transform: none;
+    transition: all 0.3s linear;
+}
+
+.eventi__event__img__bottom-block__relative:hover > .eventi__event__calendar__description {
+    color: #820503;
 }
 

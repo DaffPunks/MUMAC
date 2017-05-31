@@ -51,7 +51,7 @@ get_header();
                 <div class="eventi__event__img-block__big">
                     <img src="<?= get_template_directory_uri(); ?>/images/installations.jpg" alt="" class="eventi__event__img">
                     <div class="eventi__event__img__bottom-block">
-                        <span class="eventi__event__span__clock">MOSTRA TEMPORANEA</span> Prenota Ora
+                        <span class="eventi__event__span__clock eventi__event__span__clock__red">MOSTRA TEMPORANEA</span> Prenota Ora
                     </div>
                 </div>
                 <h3 class="eventi__event__header">
@@ -68,27 +68,32 @@ get_header();
             <div class="col-md-3 col-md-offset-1">
                 <a href="#">
                     <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
-                        <span>12 / 04 / 2017</span> Evento Mumac Edu
+                        <span class="eventi__event__calendar__date eventi__event__span__edu">12 / 04 / 2017</span>
+                        <p class="eventi__event__calendar__description">Evento Mumac Edu</p>
                     </div>
                 </a>
                 <a href="#">
                     <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
-                        <span>12 / 04 / 2017</span> Inizio mostra temporanea
+                        <span class="eventi__event__calendar__date eventi__event__span__clock">12 / 04 / 2017</span>
+                        <p class="eventi__event__calendar__description">Inizio mostra temporanea</p>
                     </div>
                 </a>
                 <a href="#">
                     <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
-                        <span>12 / 04 / 2017</span> Evento Mumac Edu
+                        <span class="eventi__event__calendar__date eventi__event__span__edu">12 / 04 / 2017</span>
+                        <p class="eventi__event__calendar__description">Evento Mumac Edu</p>
                     </div>
                 </a>
                 <a href="#">
                     <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
-                        <span>12 / 04 / 2017</span> Evento
+                        <span class="eventi__event__calendar__date eventi__event__span__calendar">12 / 04 / 2017</span>
+                        <p class="eventi__event__calendar__description">Evento</p>
                     </div>
                 </a>
                 <a href="#">
                     <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
-                        <span>12 / 04 / 2017</span> Evento
+                        <span class="eventi__event__calendar__date eventi__event__span__calendar">12 / 04 / 2017</span>
+                        <p class="eventi__event__calendar__description">Evento</p>
                     </div>
                 </a>
             </div>
