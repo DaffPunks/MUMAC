@@ -3,7 +3,7 @@ show_admin_bar(false);
 
 function gwc_enqueue_scripts()
 {
-    //wp_enqueue_script('slick.min', get_template_directory_uri() . '/public/js/slick.min.js', false, false, false);
+    wp_enqueue_script('home', get_template_directory_uri() . '/inc/js/home.min.js', false, false, true);
 
 }
 

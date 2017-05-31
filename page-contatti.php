@@ -3,6 +3,7 @@
  * Template Name: Contatti
  */
 
+
 function gwc_enqueue_scripts()
 {
     //wp_enqueue_script('slick.min', get_template_directory_uri() . '/public/js/slick.min.js', false, false, false);
