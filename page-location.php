@@ -32,6 +32,7 @@ get_header();
         elit sed do. eiusmod tempor incididunt ut labore et.
     </div>
 </section>
+
 <section class="map">
     <div class="container">
         <div class="row">

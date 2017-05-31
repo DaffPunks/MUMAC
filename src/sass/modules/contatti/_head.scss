@@ -1,0 +1,25 @@
+.head {
+  height: 316px;
+  width: 100%;
+  //margin-bottom: 300px;
+
+  background: url('../../images/contatti-bg.jpg') no-repeat center;
+  background-size: cover;
+
+  text-align: center;
+  color: white;
+
+  &-title {
+    padding-top: 95px;
+    font-size: 52px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+  }
+
+  &-desc {
+    padding-top: 40px;
+    width: 450px;
+    font-size: 18px;
+    margin: 0 auto;
+  }
+}

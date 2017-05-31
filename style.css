@@ -746,7 +746,7 @@ li.recentcomments {
 #menu-main-menu {
   padding-left: 10px;
 }
-.navbar-toggle{float:left;border:none;margin-left: 37px;margin-top: 22px;display:block!important;background-color: transparent}
+.navbar-toggle{float:left;border:none;margin-left: 25px;margin-top: 22px;display:block!important;background-color: transparent}
 .navbar-toggle.white{position:absolute;border:none;margin-left:5px;margin-top:14px;display:block!important;z-index:9999}
 .navbar-toggle .icon-bar {
     border-radius: 1px;
