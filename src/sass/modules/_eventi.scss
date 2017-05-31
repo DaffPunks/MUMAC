@@ -46,6 +46,10 @@
     position: relative;
 }
 
+.eventi__event__header__date {
+    font-weight: 500;
+}
+
 .eventi__event:hover .eventi__event__header {
     color: #990000;
 }
@@ -67,6 +71,10 @@
     background-position: 2px 1px;
 }
 
+.eventi__event__header__share:hover {
+    background-position: 2px 1px;
+}
+
 .eventi__event__description {
     font-size: 18px;
     font-family: "Lato", sans-serif;
@@ -83,6 +91,12 @@
     overflow: hidden;
 }
 
+.eventi__event__img-block__big {
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+
 .eventi__event__img-block::after {
     content: '';
     position: absolute;
@@ -95,6 +109,19 @@
     background-size: cover;
     opacity: 0;
     transition: all 0.2s linear;
+}
+
+.eventi__event__img-block__big::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 20%;
+    right: -7%;
+    height: 70%;
+    width: 15%;
+    background-image: url(../../images/stripes-rails-red.png);
+    background-size: cover;
+    opacity: .5;
 }
 
 .eventi__event:hover .eventi__event__img-block::after {
@@ -121,6 +148,10 @@
     line-height: 2;
     text-align: left;
     transition: all 0.2s linear;
+}
+
+.eventi__event__img__bottom-block.eventi__event__img__bottom-block__relative {
+    position: relative;
 }
 
 .eventi__event__img__bottom-block > span {

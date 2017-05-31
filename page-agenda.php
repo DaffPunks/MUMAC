@@ -31,51 +31,64 @@ get_header();
                 <a href="#" class="page-top__link">Scopri</a>
             </div>
         </div>
-        <img src="<?= get_template_directory_uri(); ?>/images/mumac-top-img.jpg" alt="" class="page-top__img">
+        <img src="<?= get_template_directory_uri(); ?>/images/agenda-top-img.jpg" alt="" class="page-top__img">
     </div>
 
-    <div class="eventi container-fluid">
+    <div class="container-fluid agenda-top-right">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-9">
+                <div class="agenda-top-right__inner">
+                    Agenda
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
         <div class="row">
 
-            <div class="eventi__event col-md-8">
-                <a href="#">
-                    <div class="eventi__event__img-block">
-                        <img src="<?= get_template_directory_uri(); ?>/images/eventi-default.jpg" alt="" class="eventi__event__img">
-                        <div class="eventi__event__img__bottom-block">
-                            <span>EDU</span> Prenota Ora
-                        </div>
+            <div class="col-md-8">
+                <div class="eventi__event__img-block__big">
+                    <img src="<?= get_template_directory_uri(); ?>/images/installations.jpg" alt="" class="eventi__event__img">
+                    <div class="eventi__event__img__bottom-block">
+                        <span class="eventi__event__span__clock">MOSTRA TEMPORANEA</span> Prenota Ora
                     </div>
-                </a>
+                </div>
                 <h3 class="eventi__event__header">
-                    Evento MUMAC
+                    Evento Mumac - <span class="eventi__event__header__date">12 maggio 2017</span>
                     <!-- share -->
                     <a href="#share" class="eventi__event__header__share"></a>
                 </h3>
                 <p class="eventi__event__description">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusm od tempor incididunt ut labore et dolore.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
                 </p>
             </div>
 
-            <div class="eventi__event col-md-3 col-md-offset-1">
+            <div class="col-md-3 col-md-offset-1">
                 <a href="#">
-                    <div class="eventi__event__img-block">
-                        <div class="eventi__event__img__bottom-block">
-                            <span>EDU</span> Prenota Ora
-                        </div>
+                    <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
+                        <span>12 / 04 / 2017</span> Evento Mumac Edu
                     </div>
                 </a>
                 <a href="#">
-                    <div class="eventi__event__img-block">
-                        <div class="eventi__event__img__bottom-block">
-                            <span>EDU</span> Prenota Ora
-                        </div>
+                    <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
+                        <span>12 / 04 / 2017</span> Inizio mostra temporanea
                     </div>
                 </a>
                 <a href="#">
-                    <div class="eventi__event__img-block">
-                        <div class="eventi__event__img__bottom-block">
-                            <span>EDU</span> Prenota Ora
-                        </div>
+                    <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
+                        <span>12 / 04 / 2017</span> Evento Mumac Edu
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
+                        <span>12 / 04 / 2017</span> Evento
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="eventi__event__img__bottom-block eventi__event__img__bottom-block__relative">
+                        <span>12 / 04 / 2017</span> Evento
                     </div>
                 </a>
             </div>

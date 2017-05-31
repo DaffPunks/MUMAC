@@ -1,3 +1,31 @@
 .agenda-page {
     margin-top: -123px;
 }
+
+.agenda-top-right {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.agenda-top-right__inner {
+    position: relative;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: rgb(153, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.586;
+    text-align: left;
+}
+
+.agenda-top-right__inner::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-image: url(../../images/stripes-red.png);
+    background-repeat: no-repeat;
+    bottom: 45px;
+    opacity: 0.9;
+}
