@@ -1236,18 +1236,16 @@ body.toggled #sidebar-wrapper {
 
 /* =Mobile Styling
 ----------------------------------------------- */
-<<<<<<< HEAD
-@media (max-width: 900px) {
+
+/* no more cchanges here 1200 is perfect! */
+
+@media (max-width: 1200px) {
   .hide-on-mobile{display:none!important}
   .show-on-mobile{display:block!important}
   .container{width:100%!important}
-=======
-/*@media (max-width: 1200px) {
-  .hide-on-mobile{display:none}
-  .show-on-mobile{display:block}
-  !*.container{width:100%!important}*!
->>>>>>> 1667f0c850a32ce9dbf74549bc506240bcf4d61b
 }
+
+/*
 
 @media (max-width: 992px) {
   .site-branding {

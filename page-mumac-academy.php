@@ -35,7 +35,38 @@ get_header();
     </div>
 
     <div class="mumac-main row">
-        <div class="col-md-3">
+        <div class="col-xs-12 show-on-mobile mumac__mobile-to-top">
+            <div class="col-xs-12 col-md-8 col-md-offset-1 mumac-main__img-block__right">
+                <img src="<?= get_template_directory_uri(); ?>/images/coffe-machine.jpg" alt="" class="mumac-main__img">
+            </div>
+        </div>
+
+        <div class="show-on-mobile col-xs-10">
+            <div class="col-xs-12">
+                <div class="mumac-main__text-block">
+                    <h3 class="mumac-main__header">
+                        Lorem 
+                        ipsum amor
+                        ipsum amor amor
+                        <!-- share -->
+                        <a href="#share" class="mumac-main__header__share"></a>
+                    </h3>
+                    <p class="mumac-main__text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                    </p>
+                    <a href="#" class="mumac-main__link">
+                        Leggi di più
+                    </a>
+                    <div class="mumac-main__arrows">
+                        <a href="" class="mumac-main__arrow mumac-main__arrow__left"></a>
+                        <a href="" class="mumac-main__arrow mumac-main__arrow__right"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hide-on-mobile col-md-3 col-xs-12">
             <div class="mumac-main__text-block">
                 <h3 class="mumac-main__header">
                     Lorem 
@@ -57,16 +88,24 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="col-md-8 col-md-offset-1 mumac-main__img-block__right">
+
+        <div class="hide-on-mobile col-md-8 col-md-offset-1 mumac-main__img-block__right">
             <img src="<?= get_template_directory_uri(); ?>/images/coffe-machine.jpg" alt="" class="mumac-main__img">
         </div>
     </div>
 
     <div class="mumac-main row">
-        <div class="col-md-5 mumac-main__img-block">
+        <div class="col-xs-12 show-on-mobile">
+            <div class="col-xs-12 mumac-main__img-block">
+                <img src="<?= get_template_directory_uri(); ?>/images/coffe-automatos.jpg" alt="" class="mumac-main__img">
+            </div>
+        </div>
+
+        <div class="hide-on-mobile col-md-5 col-xs-12 mumac-main__img-block">
             <img src="<?= get_template_directory_uri(); ?>/images/coffe-automatos.jpg" alt="" class="mumac-main__img">
         </div>
-        <div class="col-md-6 col-md-offset-1">
+
+        <div class="hide-on-mobile col-md-6 col-md-offset-1 col-xs-12">
             <div class="mumac-main__text-block__left">
                 <h3 class="mumac-main__header__left">
                     Lorem 
@@ -84,6 +123,30 @@ get_header();
                 </a>
             </div>
         </div>
+
+        <div class="show-on-mobile col-xs-10 col-xs-offset-2">
+            <div class="col-xs-12">
+                <div class="col-md-6 col-md-offset-1 col-xs-12">
+                    <div class="mumac-main__text-block__left">
+                        <h3 class="mumac-main__header__left">
+                            Lorem 
+                            ipsum amor
+                            ipsum amor amor
+                            <!-- share -->
+                            <a href="#share" class="mumac-main__header__share__left"></a>
+                        </h3>
+                        <p class="mumac-main__text__left">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do. eiusmod tempor incididunt ut labore et dolore.
+                            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat...
+                        </p>
+                        <a href="#" class="mumac-main__link">
+                            Leggi di più
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <div class="coffee">
